@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <title>Regiões de Portugal</title>
+    <style>
+        body {
+            font-family: Georgia, serif;
+            background-color: #d0e3e8;
+            margin: 0;
+            padding: 0;
+        }
+
+        ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+            background-color: #2f4f4f;
+        }
+
+        li {
+            float: left;
+        }
+
+        li a {
+            display: block;
+            color: white;
+            text-align: center;
+            padding: 20px;
+            text-decoration: none;
+        }
+
+        li a:hover {
+            background-color: #476f70;
+        }
+
+        h2, h1 {
+            text-align: center;
+            color: #2f4f4f;
+        }
+
+        .texto-centralizado {
+            font-family: Georgia, serif;
+            font-style: italic;
+            font-size: 1.2rem;
+            max-width: 700px;
+            margin: 30px auto;
+            text-align: justify;
+            line-height: 1.6;
+            color: #333;
+            background-color: rgba(255,255,255,0.8);
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 2px 2px 10px rgba(0,0,0,0.1);
+        }
+
+        .linha {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 20px;
+            padding: 20px;
+        }
+
+        figure {
+            text-align: center;
+            margin: 10px;
+        }
+
+        figure img {
+            width: 250px;
+            height: auto;
+            border-radius: 8px;
+            box-shadow: 2px 2px 8px rgba(0,0,0,0.2);
+        }
+
+        figcaption {
+            margin-top: 8px;
+            font-style: italic;
+            font-size: 0.95rem;
+            color: #2f4f4f;
+        }
+
+        footer {
+            text-align: center;
+            padding: 20px;
+            background-color: #2f4f4f;
+            color: white;
+            font-size: 0.9rem;
+            margin-top: 40px;
+        }
+
+        /* Efeito de Zoom para a Imagem do Mapa */
+        .mapa {
+            width: 70%; /* Ajuste o tamanho da imagem */
+            transition: transform 0.3s ease; /* Transição suave */
+            border-radius: 8px; /* Bordas arredondadas */
+        }
+
+        .mapa:hover {
+            transform: scale(1.1); /* Aumenta o mapa em 10% ao passar o cursor */
+        }
+    </style>
+</head>
+<body>
+
+    <img src="portugal_banner.jpg" width="100%" alt="Banner Regiões de Portugal">
+
+    <ul>
+        <li><a href="index.html">Homepage</a></li>
+        <li><a href="regioes.html">Regiões</a></li>
+        <li><a href="praias.html">Praias</a></li>
+        <li><a href="mosteiros.html">Mosteiros</a></li>
+        <li><a href="castelos.html">Castelos</a></li> 
+        <li><a href="gastronomia.html">Gastronomia</a></li>
+        <li><a href="contactos.html">Contactos</a></li>
+    </ul>
+
+    <h2>As Regiões de Portugal</h2>
+    <p class="texto-centralizado">
+        Portugal é dividido em várias regiões, cada uma com suas características únicas e encantadoras. Do verde exuberante do Norte às planícies douradas do Alentejo, o país revela uma diversidade surpreendente. Lisboa combina modernidade e tradição, enquanto o Algarve encanta com praias de águas cristalinas. As ilhas da Madeira e dos Açores completam o cenário com paisagens vulcânicas e vegetação exuberante. Viajar pelas regiões portuguesas é como mergulhar em múltiplos mundos dentro de um mesmo país.
+    </p>
+
+    <h1>Descubra as Regiões</h1>
+    <div class="linha">
+        <figure>
+            <img src="dourominho3.jpg" alt="Região Norte">
+            <figcaption>Região Norte</figcaption>
+        </figure>
+        <figure>
+            <img src="coimbra.jpg" alt="Centro de Portugal">
+            <figcaption>Centro</figcaption>
+        </figure>
+        <figure>
+            <img src="lisboa1.jpg" alt="Lisboa e Vale do Tejo">
+            <figcaption>Lisboa e Vale do Tejo</figcaption>
+        </figure>
+        <figure>
+            <img src="alentejo.png" alt="Alentejo">
+            <figcaption>Alentejo</figcaption>
+        </figure>
+        <figure>
+            <img src="benagil.jpg" alt="Algarve">
+            <figcaption>Algarve</figcaption>
+        </figure>
+        <figure>
+            <img src="madeira1.jpg" alt="Madeira">
+            <figcaption>Madeira</figcaption>
+        </figure>
+        <figure>
+            <img src="azores.jpg" alt="Açores">
+            <figcaption>Açores</figcaption>
+        </figure>
+    </div>
+
+    <div style="text-align:center; margin-top:30px;">
+        <img src="mapa.png" alt="Mapa das regiões de Portugal" class="mapa">
+    </div>
+
+    <footer>
+        2025 - TURISMO DE PORTUGAL - Turma 25057 - Todos os Direitos Reservados
+    </footer>
+
+</body>
+</html>
+    

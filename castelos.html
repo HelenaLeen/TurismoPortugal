@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <title>Castelos de Portugal</title>
+    <style>
+        body {
+            font-family: Georgia, serif;
+            background-color: #d0e3e8;
+            margin: 0;
+            padding: 0;
+        }
+
+        ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+            background-color: #2f4f4f;
+        }
+
+        li {
+            float: left;
+        }
+
+        li a {
+            display: block;
+            color: white;
+            text-align: center;
+            padding: 20px;
+            text-decoration: none;
+        }
+
+        li a:hover {
+            background-color: #476f70;
+        }
+
+        img:hover {
+            opacity: 0.6;
+        }
+
+        h2 {
+            color: #2f4f4f;
+        }
+
+        .quadrantes {
+            display: flex;
+            justify-content: space-between;
+            align-items: flex-start;
+            padding: 40px;
+            gap: 40px;
+            flex-wrap: wrap;
+        }
+
+        .descricao, .lista {
+            flex: 1;
+            min-width: 300px;
+        }
+
+        .descricao {
+            text-align: justify;
+            font-style: italic;
+            font-size: 1.1rem;
+            line-height: 1.6;
+            color: #333;
+        }
+
+        .lista h2 {
+            text-align: left;
+            padding-left: 20px;
+        }
+
+        .lista ol {
+            list-style-position: inside;
+            padding-left: 40px;
+            margin: 0;
+            text-align: left;
+        }
+
+        .linha {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 20px;
+            padding: 20px;
+        }
+
+        figure {
+            text-align: center;
+            margin: 10px;
+        }
+
+        figure img {
+            width: 250px;
+            height: auto;
+            border-radius: 8px;
+            box-shadow: 2px 2px 8px rgba(0,0,0,0.2);
+        }
+
+        figcaption {
+            margin-top: 8px;
+            font-style: italic;
+            font-size: 0.95rem;
+            color: #2f4f4f;
+        }
+
+        footer {
+            text-align: center;
+            padding: 20px;
+            background-color: #2f4f4f;
+            color: white;
+            font-size: 0.9rem;
+            margin-top: 40px;
+        }
+    </style>
+</head>
+<body>
+
+    <img src="portugal_banner.jpg" width="100%" alt="Banner Praias de Portugal">
+
+    <ul>
+         <ul>
+        <li><a href="#">Homepage</a></li>
+        <li><a href="#">Regiões</a></li>
+        <li><a href="#">Praias</a></li>
+        <li><a href="#">Mosteiros</a></li>
+        <li><a href="#">Castelos</a></li> 
+        <li><a href="#">Gastronomia</a></li>
+        <li><a href="#">Contactos</a></li>
+    </ul>
+    </ul>
+
+    <div class="quadrantes">
+        <div class="descricao">
+            <h2>Castelos de Portugal</h2>
+            <p> Entre vales e montanhas, erguidos com pedra e bravura, os castelos de Portugal contam histórias de reis, conquistas e lendas encantadas. De norte a sul, essas fortalezas são mais que monumentos — são memórias vivas que transportam quem as visita para tempos medievais, onde o passado ecoa nas muralhas e torres. Visitar um castelo português é caminhar entre séculos de história, com o coração cheio de admiração e alma cheia de poesia.
+            </p>
+        </div>
+
+        
+    </div>
+
+    <div class="linha">
+        <figure>
+            <img src="castelosantamaria.jpg" alt="Castelo Santa Maria">
+            <figcaption>Castelo Santa Maria</figcaption>
+        </figure>
+        <figure>
+            <img src="castelosaojorge.jpg" alt="Castelo de São Jorge">
+            <figcaption>Castelo de São Jorge</figcaption>
+        </figure>
+        <figure>
+            <img src="obidos.jpg" alt="Castelo de Obidos">
+            <figcaption>Castelo de Obidos</figcaption>
+        </figure>
+        <figure>
+            <img src="mosteirosantamaria.jpg" alt="Mosteiro de Santa Maria do Carvoeiro">
+            <figcaption>Mosteiro de Santa Maria do Carvoeiro</figcaption>
+        </figure>
+        <figure>
+            <img src="mosteirodelongosvales.jpg" alt="Mosteiro de Longos Vales">
+            <figcaption>Mosteiro de Longos Vales</figcaption>
+        </figure>
+        <figure>
+            <img src="saoromao.jpg" alt="Mosteiro de São Romão">
+            <figcaption>Mosteiro de São Romão de Neiva</figcaption>
+        </figure>
+    </div>
+
+    <footer>
+        2025 - TURISMO DE PORTUGAL - Turma 25057 - Todos os Direitos Reservados
+    </footer>
+
+</body>
+</html>

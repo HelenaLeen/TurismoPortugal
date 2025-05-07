@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <title>Mosteiros de Portugal</title>
+    <style>
+        body {
+            font-family: Georgia, serif;
+            background-color: #d0e3e8;
+            margin: 0;
+            padding: 0;
+        }
+
+        ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+            background-color: #2f4f4f;
+        }
+
+        li {
+            float: left;
+        }
+
+        li a {
+            display: block;
+            color: white;
+            text-align: center;
+            padding: 20px;
+            text-decoration: none;
+        }
+
+        li a:hover {
+            background-color: #476f70;
+        }
+
+        img:hover {
+            opacity: 0.6;
+        }
+
+        h2 {
+            color: #2f4f4f;
+        }
+
+        .quadrantes {
+            display: flex;
+            justify-content: space-between;
+            align-items: flex-start;
+            padding: 40px;
+            gap: 40px;
+            flex-wrap: wrap;
+        }
+
+        .descricao, .lista {
+            flex: 1;
+            min-width: 300px;
+        }
+
+        .descricao {
+            text-align: justify;
+            font-style: italic;
+            font-size: 1.1rem;
+            line-height: 1.6;
+            color: #333;
+        }
+
+        .lista h2 {
+            text-align: left;
+            padding-left: 20px;
+        }
+
+        .lista ol {
+            list-style-position: inside;
+            padding-left: 40px;
+            margin: 0;
+            text-align: left;
+        }
+
+        .linha {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 20px;
+            padding: 20px;
+        }
+
+        figure {
+            text-align: center;
+            margin: 10px;
+        }
+
+        figure img {
+            width: 250px;
+            height: auto;
+            border-radius: 8px;
+            box-shadow: 2px 2px 8px rgba(0,0,0,0.2);
+        }
+
+        figcaption {
+            margin-top: 8px;
+            font-style: italic;
+            font-size: 0.95rem;
+            color: #2f4f4f;
+        }
+
+        footer {
+            text-align: center;
+            padding: 20px;
+            background-color: #2f4f4f;
+            color: white;
+            font-size: 0.9rem;
+            margin-top: 40px;
+        }
+    </style>
+</head>
+<body>
+
+    <img src="portugal_banner.jpg" width="100%" alt="Banner Praias de Portugal">
+
+    <ul>
+         <ul>
+        <li><a href="#">Homepage</a></li>
+        <li><a href="#">Regiões</a></li>
+        <li><a href="#">Praias</a></li>
+        <li><a href="#">Mosteiros</a></li>
+        <li><a href="#">Castelos</a></li> 
+        <li><a href="#">Gastronomia</a></li>
+        <li><a href="#">Contactos</a></li>
+    </ul>
+    </ul>
+
+    <div class="quadrantes">
+        <div class="descricao">
+            <h2>Mosteiros de Portugal</h2>
+            <p>
+                Os mosteiros de Portugal são verdadeiros tesouros de história e beleza. Espalhados pelo país, como o imponente Mosteiro dos Jerónimos ou o silencioso Mosteiro de Alcobaça, eles guardam segredos de reis, monges e amores proibidos. Entre pedras antigas e claustros encantadores, é fácil sentir que o tempo anda mais devagar. Visitar um mosteiro português é como entrar numa viagem ao passado — e sair de lá com o coração mais leve.
+            </p>
+        </div>
+
+        <div class="lista">
+            <h2>Lista dos Mosteiros</h2>
+            <ol>
+                <li>Mosteiro dos Jerónimos</li>
+				<br>
+                <li>Mosteiro de Alcobaça</li>
+				<br>
+                <li>Mosteiro da Batalha</li>
+				<br>
+                <li>Mosteiro do Pilar</li>
+				<br>
+                <li>Mosteiro de São Romão de Neiva</li>
+				<br>
+                <li>Mosteiro de Santa Maria do Carvoeiro</li>
+            </ol>
+        </div>
+    </div>
+
+    <div class="linha">
+        <figure>
+            <img src="imagens/batalha1.jpg" alt="Mosteiro da Batalha">
+            <figcaption>Mosteiro da Batalha</figcaption>
+        </figure>
+        <figure>
+            <img src="imagens/jeronimos2.jpg" alt="Mosteiro dos Jeronimos">
+            <figcaption>Mosteiro dos Jerônimos</figcaption>
+        </figure>
+        <figure>
+            <img src="imagens/pilar.jpg" alt="Mosteiro do Pilar">
+            <figcaption>Mosteiro do Pilar</figcaption>
+        </figure>
+        <figure>
+            <img src="mosteirosantamaria.jpg" alt="Mosteiro de Santa Maria do Carvoeiro">
+            <figcaption>Mosteiro de Santa Maria do Carvoeiro</figcaption>
+        </figure>
+        <figure>
+            <img src="mosteirodelongosvales.jpg" alt="Mosteiro de Longos Vales">
+            <figcaption>Mosteiro de Longos Vales</figcaption>
+        </figure>
+        <figure>
+            <img src="saoromao.jpg" alt="Mosteiro de São Romão">
+            <figcaption>Mosteiro de São Romão de Neiva</figcaption>
+        </figure>
+    </div>
+
+    <footer>
+        2025 - TURISMO DE PORTUGAL - Turma 25057 - Todos os Direitos Reservados
+    </footer>
+
+</body>
+</html>
